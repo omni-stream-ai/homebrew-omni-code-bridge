@@ -7,24 +7,24 @@ class OmniCodeBridge < Formula
   on_macos do
     on_arm do
       url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.1/omni-code-bridge-macos-arm64.tar.gz"
-      sha256 "1400794d6fa5f54f1983d1e01303b2d56b5ea1ed23640ef5e204e9a1661e1e3a"
+      sha256 "72b4df8e95dfa3fc90a251fab419703edfd165dc4731074574763360a52c1ea8"
     end
 
     on_intel do
       url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.1/omni-code-bridge-macos-x64.tar.gz"
-      sha256 "a300a91dcfd40a328da3afeb78d99d39281bc14453deb41fba94b7fe9798251d"
+      sha256 "0a0ffe292ff7321b361d3586bfcb0beb8507a74b623e5d2361d6e336073ab1f1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.1/omni-code-bridge-linux-arm64.tar.gz"
-      sha256 "80d178718d43f3aea59e8db993dd3aa57dd1c4d21a19b25efe46417ea54bef38"
+      sha256 "6080889fa48ae9ccc1010db24dce0e6290563fe699e21e8a544eed306e7598b6"
     end
 
     on_intel do
       url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.1/omni-code-bridge-linux-x64.tar.gz"
-      sha256 "8e59c6ab576c427ae173355abdafe1fb7456fd1771ac4ace5979f3e05a59095b"
+      sha256 "5b0cae6381b8bf738d8489d6c46e8b440c54aaa65d35b2f552ea813611fc694a"
     end
   end
 
