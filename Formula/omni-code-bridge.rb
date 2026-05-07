@@ -1,30 +1,30 @@
 class OmniCodeBridge < Formula
   desc "Rust bridge for Omni Code — connects mobile clients to local coding agents"
   homepage "https://github.com/omni-stream-ai/omni-code-bridge"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.6/omni-code-bridge-macos-arm64.tar.gz"
-      sha256 "9dd3c1158cb1fdf97348c0b58bc2d062bdf1dd7fd93671ba85a61dff52dcf4c9"
+      url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.7/omni-code-bridge-macos-arm64.tar.gz"
+      sha256 "c29675c8333919c6986b9f7a09579b68276eb70f4a1bf22031c92893a3703b75"
     end
 
     on_intel do
-      url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.6/omni-code-bridge-macos-x64.tar.gz"
-      sha256 "5e6bc717eec509e707d4b408c16d87a69686e5022b055b35dbf0a88da8ab3c02"
+      url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.7/omni-code-bridge-macos-x64.tar.gz"
+      sha256 "f7216f3185daffa948787b057cf75e21bf4d5150ebbe41d92cfd9d7051ffb35d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.6/omni-code-bridge-linux-arm64.tar.gz"
-      sha256 "4e7a8e33067cadd88d8fadf2aa2eef15361c18273a43690452b5d064fa3f3afd"
+      url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.7/omni-code-bridge-linux-arm64.tar.gz"
+      sha256 "9fae857dd94913ac630c9ecd77f27334024658ac74220d6ac06191faf9cd800a"
     end
 
     on_intel do
-      url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.6/omni-code-bridge-linux-x64.tar.gz"
-      sha256 "34247a685364aa43cead784a839f53f94531da78889222c70cc2712e321f2724"
+      url "https://github.com/omni-stream-ai/omni-code-bridge/releases/download/v0.1.7/omni-code-bridge-linux-x64.tar.gz"
+      sha256 "b48a1958bc135e604f9e058aa6050bed0be7d6f11a076bab52f0e01d7bac1781"
     end
   end
 
